@@ -1,0 +1,51 @@
+/* ~/.config/wofi/style.css */
+/* Wallpaper palette-based colors, slightly pointy, frosted */
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+window {
+  background-color: #1f2028;        /* wallpaper base color, not white */
+  backdrop-filter: blur(12px);      /* frosted glass effect */
+  color: #cdd6f4;                   /* readable text */
+  border-radius: 8px;               /* slightly pointy corners */
+  border: 1px solid rgba(171, 188, 218, 0.15);
+}
+
+#outer-box {
+  padding: 16px;
+}
+
+/* Search bar */
+#input {
+  background-color: #2a2b35;         /* slightly lighter than base */
+  color: #abbcda;
+  padding: 6px 12px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+}
+
+/* Entries container */
+#inner-box {
+  spacing: 8px;
+}
+
+/* Individual entries */
+#entry {
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+/* Hover state */
+#entry:hover {
+  background-color: #3b3d50;         /* accent from wallpaper palette */
+  color: #abbcda;
+}
+
+/* Selected state */
+#entry:selected {
+  background-color: #4c4f65;         /* slightly stronger accent */
+  color: #abbcda;
+}

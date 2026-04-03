@@ -1,0 +1,8 @@
+width=600
+height=350
+location=center
+show=drun
+prompt=
+filter_rate=100
+allow_images=false
+no_actions=true
